@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    background: url("https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4222201513,784585874&fm=26&gp=0.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+fieldset {
+    
+    margin: 20px auto;
+}
+
+#dropdown {
+    margin: 10px auto;
+    
+}
+
+.dropdown {
+    align-items: normal;
+}
+
+button {
+    background:orange;
+    color: black;
+    width: 200px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.box {
+    text-align: left;
+    margin: 10px;
+    color: white;
+    align-items: normal;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width:900px;
+    
+}
+
+input[type="number"] {
+    width : 70%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+
+}
+
+input[type="number"]:invalid {
+    box-shadow: 0 0 5px 1px red;
+    
+  }
+
+#multiline_text {
+    text-align: left;
+    color: white;
+}
+
+#design_system{
+    color: white;
+}
+
+#description{
+    color: white;
+}
