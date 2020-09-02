@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1 id="title">ios Human Interface Guidelines</h1>
+    <p id="description">This is a <strong id="design_system">design system</strong> developed by apple on their ios, macbook, ipad and iwatch. Its components can be roughly categorized into ios views and ios bars. </p>
+    <form id="survey-form">
+        <div class="box">
+            <label for="name">Enter your name</label><br>
+            <input id="name" type="text" required name="name"><br>
+        </div>
+
+        <div class="box">
+            <label for="email">Enter your email</label><br>
+            <input id="email" type="email" name="email" required> <br>
+        </div>
+
+        <div class="box">
+            <label for="number">Please enter a number</label><br>
+            <input id="number" name="random number" type="number" min="10" max="20"><br>
+        </div>
+
+
+        <div class="box">
+        <label id="dropdown">Please select one component</label>
+        <select id="dropdown">
+            <option value="1">navigation tab</option>
+            <option value="2">scroll view</option>
+            <option value="3">alert</option>
+        </select>
+        </div>
+
+    <div class="box">
+        <fieldset>
+        <legend>please choose one component</legend>
+        <input type="radio" id="ios components">
+        <label for="ios components" name="components" value="stepper">stepper</label><br>
+
+        <input type="radio" id="ios components">
+        <label for="ios components" name="components" value="stepper">tab bar</label><br>
+
+        <input type="radio" id="ios components">
+        <label for="ios components" name="components" value="stepper">activity sheets</label>
+    </fieldset>
+    </div>
+
+    <div class="box">
+    <label for="multiline_text" id="multiline_text_label">Please leave any message you want</label><br>
+    <textarea id="multiline_text" name="multipleline text" rows="4" cols="50"></textarea>
+    </div>
+    <br>
+    <button>submit</button>
+   
+
+
+    </form>
+</body>
+</html>
